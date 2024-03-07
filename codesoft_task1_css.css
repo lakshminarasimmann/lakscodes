@@ -1,0 +1,82 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+header {
+    background-color: #212529; /* Dark gray header */
+    color: #fff; /* White text */
+    padding: 20px;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0; /* Remove bottom margin for better alignment */
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #296d18; /* White text for menu */
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #4e1c1c; /* Light gray on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+    background-image: url("https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg"); /* Replace "banner.jpg" with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text over the banner */
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    background-image: url("https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg"); /* Replace "banner.jpg" with your actual image path */
+    background-size: cover;
+}
+
+.hero p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.hero a {
+    background-color: #38a3a5; /* Green button color */
+    color: #fff;
+    padding: 10px 20px;
+    border:#38a3a5}
+.category-buttons {
+        color: #296d18; /* White text for menu */
+        text-decoration: none;
+        font-size: 1em;
+        transition: color 0.3s ease; /* Smooth color transition on hover */
+    }
